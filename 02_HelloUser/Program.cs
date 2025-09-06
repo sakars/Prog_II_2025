@@ -1,10 +1,10 @@
-﻿namespace _02_HelloUser
+﻿
+internal class Program
 {
-    internal class Program
+    static void Main()
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        string name = Console.ReadLine();
+        Console.WriteLine("Hello, " + name + "!");
     }
 }
+
