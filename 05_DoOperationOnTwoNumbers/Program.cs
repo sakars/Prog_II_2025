@@ -39,7 +39,9 @@
         }
         else
         {
+            // Ja darbība nav atpazīta, izvadām kļūdas paziņojumu un beidzam programmu
             Console.WriteLine("Invalid operation");
+            // Return izbeidz Main metodes izpildi
             return;
         }
         Console.WriteLine("Result: " + result);
